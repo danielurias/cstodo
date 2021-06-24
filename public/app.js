@@ -1,5 +1,5 @@
 
-var url="https://git.heroku.com/cs-todo-21.git";
+var url="https://cs-todo-21.herokuapp.com";
 
 
 var app = new Vue ({
