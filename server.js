@@ -9,7 +9,7 @@ const { store, Todo } = require("./model");
 const app = express();
 
 app.use(cors());
-app.use(express.stactic("public"));
+app.use(express.stactic("static"));
 
 // tell our app to use json (this is an example of a middleware but this one
 // is implemented for us)
