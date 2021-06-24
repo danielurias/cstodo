@@ -1,5 +1,5 @@
 
-var url="http://todo2021.codeschool.cloud";
+var url="https://git.heroku.com/cs-todo-21.git";
 
 var app = new Vue ({
         el:"#app",
