@@ -8,7 +8,6 @@ const portNumber = process.argv[2] || process.env.PORT || 8080;
 
 // connect to the database
 persist.connect(function () {
-  // start the server
   server.listen(portNumber, () => {
     console.log(`Running Server on Port ${portNumber}`);
   });
